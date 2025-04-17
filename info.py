@@ -130,32 +130,3 @@ SETTINGS = {
             'api_three': SHORTENER_API3,
             'third_verify_time': THREE_VERIFY_GAP
 }
-admin_cmds = [
-    "/add_premium", "/premium_users", "/remove_premium", "/add_redeem",
-    "/refresh", "/set_muc", "/pm_search_on", "/pm_search_off",
-    "/set_ads", "/del_ads", "/setlist", "/clearlist",
-    "/verify_id", "/index", "/send", "/leave",
-    "/ban", "/unban", "/broadcast", "/grp_broadcast",
-    "/delreq", "/channel", "/del_file", "/delete",
-    "/deletefiles", "/deleteall",
-    "All These Commands Can Be Used Only By Admins.",
-    "\u26a1 powered by @JISSHU_BOTS"
-]
-
-cmds = [
-    {"start": "Start The Bot"},
-    {"most": "Get Most Searches Button List"},
-    {"trend": "Get Top Trending Button List"},
-    {"mostlist": "Show Most Searches List"},
-    {"trendlist": "\u1d66\u1d49\u1d52\u1d43 \u1d40\u1d57\u1d49\u1d4d\u1d43\u1d9c \u1d39\u1d57\u1d4d\u1d4d\u1d52\u1d4d \u1d4c\u1d52\u1d4d\u1d4f"},
-    {"plan": "Check Available Premium Membership Plans"},
-    {"myplan": "Check Your Currunt Plan"},
-    {"refer": "To Refer Your Friend And Get Premium"},
-    {"stats": "Check My Database"},
-    {"id": "Get Telegram Id"},
-    {"font": "To Generate Cool Fonts"},
-    {"details": "Check Group Details"},
-    {"settings": "Change Bot Setting"},
-    {"grp_cmds": "Check Group Commands"},
-    {"admin_cmds": "Bot Admin Commands"}
-]
