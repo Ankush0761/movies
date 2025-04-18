@@ -7,7 +7,7 @@ from . import multi_clients, work_loads, JisshuBot
 
 
 async def initialize_clients():
-    multi_clients[0] = JisshuBot
+    multi_clients[0] = Barun
     work_loads[0] = 0
     all_tokens = TokenParser().parse_from_env()
     if not all_tokens:
